@@ -1,0 +1,121 @@
+/* stylelint-disable selector-list-comma-newline-after */
+
+.container {
+  background-color: #fff4f4;
+}
+
+.blog-header {
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.blog-header-logo {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h6 {
+  font-family: 'Courier New', Courier, monospace ;
+  font-size: 15px;
+  color: #000000;
+}
+
+a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(58, 0, 231);
+}
+
+a:link {
+  color: rgb(147, 53, 53);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+p {
+  color: #000000;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 { height: 250px; }
+@media (min-width: 768px) {
+  .h-md-250 { height: 250px; }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+
+/*
+ * Footer
+ */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #000000;
+  text-align: center;
+  background-color: #ffadad;
+  border-top: .05rem solid #ffadad;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.carousel-item img {
+  border: #ffadad;
+  border-style:solid;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+/* SEARCH */
+#myInput {
+  background-image: url('../img/search.png'); /* Add a search icon to input */
+  background-position: 10px 15px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  background-size: 20px;
+  width: 100%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}

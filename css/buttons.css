@@ -1,0 +1,29 @@
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .btn-check {
+    display: none;
+  }
+  
+  .btn-outline-primary {
+    font-size: 18px;
+    color: #ff0000;
+    background-color: #ffffff;
+    border-color: #ff0000;
+    padding: 10px 20px;
+    border-radius: 30px;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #3a06cb;
+    border-color: #0062cc;
+  }
+  
+  .btn-outline-primary:checked {
+    background-color: #0062cc;
+    border-color: #ff0000;
+  }

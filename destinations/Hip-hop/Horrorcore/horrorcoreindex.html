@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title>Horrorcore | IKAChordGuides</title>
+    <link rel="icon" href="../../../img/IKAKURAI ICON.png">
+    <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../css/blog.css" rel="stylesheet">
+    <link href="../../../css/essentials.css" rel="stylesheet"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+  </head>
+  
+  <body style="background-color:#ffadad">
+    
+    <div class="container">
+      <header class="blog-header lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="p-2 link-dark" href="../../../index.html">Home</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-dark" href="../../../index.html">IKAChordGuides</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="p-2 link-dark" href="../../../contact.html">Contact</a>
+          </div>
+        </div>
+      </header>
+    
+      <div class="nav-scroller py-1 mb-2">
+        <nav class="nav d-flex justify-content-between">
+          <a class="p-2 link-dark" href="../../Pop/popindex.html">Pop</a>
+          <a class="p-2 link-dark" href="../../Hip-hop/hip-hopindex.html">Hip-hop</a>
+          <a class="p-2 link-dark" href="../../Rock/rockindex.html">Rock</a>
+          <a class="p-2 link-dark" href="../../R&B/r&bindex.html">Rhythm and Blues</a>
+          <a class="p-2 link-dark" href="../../Soul/soulindex.html">Soul</a>
+          <a class="p-2 link-dark" href="../../Reggae/reggaeindex.html">Reggae</a>
+          <a class="p-2 link-dark" href="../../Country/countryindex.html">Country</a>
+          <a class="p-2 link-dark" href="../../Funk/funkindex.html">Funk</a>
+          <a class="p-2 link-dark" href="../../Folk/folkindex.html">Folk</a>
+          <a class="p-2 link-dark" href="../../Jazz/jazzindex.html">Jazz</a>
+          <a class="p-2 link-dark" href="../../EDM/edmindex.html">Electronic (EDM)</a>
+          <a class="p-2 link-dark" href="../../Blues/bluesindex.html">Blues</a>
+        </nav>
+      </div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+      <symbol id="chevron-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+      </symbol>
+      </svg>
+
+
+    <main class="container">
+      <div class="p-4 p-md-5 mb-4 rounded">
+        <div align="center">
+          <h1 class="display-4 fst-italic" align="center">| Hip-hop Section |</h1>
+          <h3>Horrorcore</h3>
+          <p class="lead">Horrorcore is a subgenre of hip-hop music that focuses on horror-themed and often violent lyrics. It emerged 
+            in the late 1980s and early 1990s and is characterized by graphic descriptions of horror and violence, dark and ominous 
+            beats, and the use of horror movie samples. Horrorcore often deals with taboo subjects such as murder, suicide, and torture,
+             and it is not for everyone due to its graphic and disturbing content. Some of the notable horrorcore artists include 
+             Insane Clown Posse, Brotha Lynch Hung, and Gravediggaz.</p>
+          <br>
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Artist's Chord Progression..">
+        </div>
+      </div>
+
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+            <!--ROW START: IMAGE HEIGHT = 420 -->
+            <div class="col">
+              <div class="card shadow-sm"> 
+                <img src="../../../img/Hip-hop-img/Horrorcore/eminem-img.jpg" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                <div class="card-body">
+                  <h4 class="card-title">Eminem</h4>
+                  <p class="card-text">Eminem, whose real name is Marshall Bruce Mathers III, is a rapper, songwriter, and producer from Detroit, Michigan.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <h5><a href="eminem.html" class="icon-link d-inline-flex align-items-center">
+                        Chord Progressions
+                        <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                      </a></h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--END ROW-->
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+
+    <!--Search Function-->
+    <script>
+      $(document).ready(function() {
+        // Get all cards
+        var cards = $(".card");
+      
+        // Listen to keyup event on search input
+        $("#myInput").on("keyup", function() {
+          // Get entered text
+          var text = $(this).val().toLowerCase();
+      
+          // Filter cards based on entered text
+          cards.filter(function() {
+            // Get card title
+            var title = $(this).find(".card-title").text().toLowerCase();
+            // Show/hide card based on whether it matches entered text
+            if (title.indexOf(text) > -1) {
+              $(this).show();
+            } else {
+              $(this).hide();
+            }
+          });
+        });
+      });
+    </script>
+
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
+    data-id="ikakurai" data-description="Support me on Buy me a coffee!" data-message="Buy me Beer..." data-color="#FF813F" 
+    data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+
+
+    <footer class="blog-footer">
+        <p>©2023 by <a href="https://instagram.com/ikakurai">@IKA2003</a>.</p>
+        <p>
+          <a href="#">Back to top</a>
+        </p>
+      </footer>
+  
+      <script src="../../../js/bootstrap.bundle.min.js"></script>
+
+  
+      </body>
+  
+  </html>
