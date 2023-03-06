@@ -10,6 +10,7 @@
     <link href="../../css/features.css" rel="stylesheet">
     <link href="../../css/blog.css" rel="stylesheet">
     <link href="../../css/essentials.css" rel="stylesheet"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
   </head>
   
   <body style="background-color:#ffadad">
@@ -31,7 +32,7 @@
     
       <div class="nav-scroller py-1 mb-2">
          <nav class="nav d-flex justify-content-between">
-          <a class="p-2 link-dark" href="popindex.html">Pop</a>
+          <a class="p-2 link-dark" href="../Pop/popindex.html">Pop</a>
           <a class="p-2 link-dark" href="../Hip-hop/hip-hopindex.html">Hip-hop</a>
           <a class="p-2 link-dark" href="../Rock/rockindex.html">Rock</a>
           <a class="p-2 link-dark" href="../R&B/r&bindex.html">Rhythm and Blues</a>
@@ -55,20 +56,22 @@
 
         <div align="center">
           <h1 class="display-4 fst-italic" align="center">| Pop Section |</h1>
-          <p class="lead">Pop music is a genre of popular music that originated in the mid-1950s. It is characterized by its catchy 
-            melodies, upbeat rhythms, and simple song structures, often incorporating elements of other genres such as rock, electronic,
-             and hip hop. Pop music is often associated with mainstream commercial success and is widely popular across a broad audience.</p>
+          <h3>Country-Pop, Bubblegum-Pop, Dance-Pop, J-Pop, K-Pop</h3>
+          <p class="lead">Pop music, short for popular music, is a genre of music that originated in the 1950s and has since become the
+             most commercially successful and widely listened-to genre in the world. Pop music is characterized by catchy melodies, 
+             simple harmonies, and relatable lyrics that are easy to sing along to. It often features a mix of electronic and acoustic 
+             instruments and draws influences from a variety of other genres, including rock, hip-hop, R&B, and dance music.</p>
              <br><h5>Popular Chord Progressions:</h5>
         </div>
         <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../../img/Pop-img/Country-Pop/taylor-img.jpg');">
+            <div class="card-pop card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../../img/Pop-img/taylor-swift-img.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Taylor Swift</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi2 me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <h6><a href="Country-Pop/taylor-swift.html" >Check Out Now: </a></h6>
+                    <h5><a href="taylor-swift.html" >Check Out Now: </a></h5>
                   </li>
                 </ul>
               </div>
@@ -76,13 +79,13 @@
           </div>
     
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../../img/Pop-img/Dance-Pop/michael-img.jpg');">
+            <div class="card-pop card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../../img/Pop-img/michael-jackson-img.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Michael Jackson</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi2 me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <h5><a href="Dance-Pop/michael-jackson.html" >Check Out Now: </a></h5>
+                    <h5><a href="michael-jackson.html" >Check Out Now: </a></h5>
                   </li>
                 </ul>
               </div>
@@ -90,13 +93,13 @@
           </div>
     
           <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../../img/Pop-img/Dance-Pop/weeknd-img.jpg');">
+            <div class="card-pop card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('../../img/Pop-img/the-weeknd-img.jpg');">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                 <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">The Weeknd</h3>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="d-flex align-items-center me-3">
                     <svg class="bi2 me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                    <h5><a href="Dance-Pop/the-weeknd.html" >Check Out Now: </a></h5>
+                    <h5><a href="the-weeknd.html" >Check Out Now: </a></h5>
                   </li>
                 </ul>
               </div>
@@ -105,96 +108,110 @@
         </div>
       
         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
-        <symbol id="chevron-right" viewBox="0 7 16 10">
+        <symbol id="chevron-right" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
         </symbol>
         </svg>
 
-        <!--FIRST COLUMN-->
         <div class="container px-4 py-5" id="hanging-icons">
-          <h2 class="pb-2 border-bottom">Pop Sub-genres</h2>
-          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-start">
-              <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-              </div>
-              <div>
-                <img src="../../img/Pop-img/country-pop.jpg" style="float:right" alt="Image description" width="300" height="300">
-                <h3 class="fs-2">Country Pop</h3>
-                <p>Country pop is a music genre that combines elements of country music with pop music, often featuring catchy melodies,
-                   polished production, and a crossover appeal to mainstream pop audiences. It emerged in the 1960s and 1970s and has 
-                   continued to evolve in popularity with artists such as Taylor Swift, Shania Twain, and Carrie Underwood. </p>
-                <a href="Country-Pop/countrypopindex.html" class="icon-link d-inline-flex align-items-center">
-                  <h5>Checkout Artists</h5>
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-                </a>
-              </div>
-            </div>
-            <div class="col d-flex align-items-start">
-              <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#cpu-fill"/></svg>
-              </div>
-              <div>
-                <img src="../../img/Pop-img/j-pop.png" style="float:right" alt="Image description" width="300" height="300">
-                <h3 class="fs-2">J-Pop (Japanese)</h3>
-                <p>J-pop, short for Japanese pop music, refers to popular music originating from Japan. It encompasses a wide range of 
-                  musical styles and genres, including pop, rock, electronic, and more. J-pop often features catchy melodies, upbeat 
-                  rhythms, and a mix of Japanese and English lyrics. It has gained popularity not only in Japan but also globally, with 
-                  many J-pop artists achieving success outside of their home country.</p>
-                <a href="#" class="icon-link d-inline-flex align-items-center">
-                  <h5>Checkout Artists</h5>
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-                </a>
-              </div>
-            </div>
-            <div class="col d-flex align-items-start">
-              <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
-              </div>
-              <div>
-                <img src="../../img/Pop-img/k-pop.jpg" style="float:right" alt="Image description" width="300" height="300">
-                <h3 class="fs-2">K-Pop (Korean)</h3>
-                <p>K-pop, or Korean pop, is a music genre that originated in South Korea and is characterized by its visually appealing 
-                  music videos, synchronized dance routines, and upbeat electronic music. K-pop groups typically feature several 
-                  members who are trained in singing, dancing, and acting, and the genre has gained global popularity in recent years, 
-                  particularly with the rise of K-pop boy bands and girl groups.</p>
-                <a href="#" class="icon-link d-inline-flex align-items-center">
-                  <h5>Checkout Artists</h5>
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-                </a>
+          <h2 class="pb-2 border-bottom">Artists Chord Progressions:</h2><br>
+
+          <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Artist's Chord Progression..">
+
+          
+          <div class="album py-5 bg-light">
+            <div class="container">
+              <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    
+                <!--ROW START: IMAGE Width = 350 -->
+                <div class="col">
+                  <div class="card shadow-sm"> 
+                    <img src="../../img/Pop-img/taylor-swift-img.jpg" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                    <div class="card-body">
+                      <h4 class="card-title">Taylor Swift</h4>
+                      <p class="card-text">Taylor Swift is an American singer-songwriter known for her narrative songwriting and country-pop sound. </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <h5><a href="taylor-swift.html" class="icon-link d-inline-flex align-items-center">
+                            Chord Progressions
+                            <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                          </a></h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../../img/Pop-img/the-weeknd-img.jpg" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                      <div class="card-body">
+                      <h4 class="card-title">The Weeknd</h4>
+                      <p class="card-text">The Weeknd, born Abel Makkonen Tesfaye on February 16, 1990, is a Canadian singer, songwriter, and record producer.</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <h5><a href="the-weeknd.html" class="icon-link d-inline-flex align-items-center">
+                            Chord Progressions
+                            <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                          </a></h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col">
+                  <div class="card shadow-sm">
+                    <img src="../../img/Pop-img/michael-jackson-img.jpg" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                   <div class="card-body">
+                      <h4 class="card-title">Michael Jackson</h4>
+                      <p class="card-text">Michael Jackson, born on August 29, 1958, was an American singer, songwriter, dancer, and actor. </p>
+                      <div class="d-flex justify-content-between align-items-center">
+                        <div class="btn-group">
+                          <h5><a href="michael-jackson.html" class="icon-link d-inline-flex align-items-center">
+                            Chord Progressions
+                            <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
+                          </a></h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--END ROW-->
+    
               </div>
             </div>
           </div>
-        </div>
-        <!--FIRST COLUMN FINISHED-->
-
-        <!--SECOND COLUMN-->
-        <div class="container px-4 py-5" id="hanging-icons">
-          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-start">
-              <div class="icon-square text-bg-light d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"/></svg>
-              </div>
-              <div>
-                <img src="../../img/Pop-img/dance-pop.jpg" style="float:right" alt="Image description" width="300" height="300">
-                <h3 class="fs-2">Dance Pop</h3>
-                <p>Dance-pop is a sub-genre of pop music that emerged in the 1980s and has remained popular ever since. It is 
-                  characterized by its upbeat and danceable rhythms, which are often accompanied by electronic instruments and 
-                  synthesizers. Dance-pop songs typically have catchy melodies and lyrics that are easy to sing along with, and they 
-                  are designed to get people moving on the dance floor.</p>
-                <a href="Dance-Pop/dancepopindex.html" class="icon-link d-inline-flex align-items-center">
-                  <h5>Checkout Artists</h5>
-                  <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"/></svg>
-                </a>
-              </div>
-            </div>
-            
-        </div>
-        <!--SECOND COLUMN FINISHED-->
 
         
       </div>
     </main>
+
+        <!--Search Function-->
+        <script>
+          $(document).ready(function() {
+            // Get all cards
+            var cards = $(".card");
+          
+            // Listen to keyup event on search input
+            $("#myInput").on("keyup", function() {
+              // Get entered text
+              var text = $(this).val().toLowerCase();
+          
+              // Filter cards based on entered text
+              cards.filter(function() {
+                // Get card title
+                var title = $(this).find(".card-title").text().toLowerCase();
+                // Show/hide card based on whether it matches entered text
+                if (title.indexOf(text) > -1) {
+                  $(this).show();
+                } else {
+                  $(this).hide();
+                }
+              });
+            });
+          });
+        </script>
 
     <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" 
     data-id="ikakurai" data-description="Support me on Buy me a coffee!" data-message="Buy me Beer..." data-color="#FF813F" 
