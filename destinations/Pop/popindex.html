@@ -37,7 +37,6 @@
           <a class="p-2 link-dark" href="../Hip-hop/hip-hopindex.html">Hip-hop</a>
           <a class="p-2 link-dark" href="../Rock/rockindex.html">Rock</a>
           <a class="p-2 link-dark" href="../R&B/r&bindex.html">Rhythm and Blues</a>
-          <a class="p-2 link-dark" href="../Soul/soulindex.html">Soul</a>
           <a class="p-2 link-dark" href="../Reggae/reggaeindex.html">Reggae</a>
           <a class="p-2 link-dark" href="../Country/countryindex.html">Country</a>
           <a class="p-2 link-dark" href="../Funk/funkindex.html">Funk</a>
@@ -166,7 +165,7 @@
                     <img src="../../img/Pop-img/michael-jackson-img.jpg" width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
                    <div class="card-body">
                       <h4 class="card-title">Michael Jackson</h4>
-                      <p class="card-text">Michael Jackson, born on August 29, 1958, was an American singer, songwriter, dancer, and actor. </p>
+                      <p class="card-text">Michael Jackson, born on August 29, 1958, was an American singer, songwriter, dancer, and actor. He was named the 'King of Pop'. </p>
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <h5><a href="michael-jackson.html" class="icon-link d-inline-flex align-items-center">
@@ -179,7 +178,7 @@
                   </div>
                 </div>
                 <!--END ROW-->
-    
+
               </div>
             </div>
           </div>
@@ -208,9 +207,9 @@
                 var title = $(this).find(".card-title").text().toLowerCase();
                 // Show/hide card based on whether it matches entered text
                 if (title.indexOf(text) > -1) {
-                  $(this).show();
+                  $(this).fadeIn("slow");
                 } else {
-                  $(this).hide();
+                  $(this).fadeOut("slow");
                 }
               });
             });
@@ -218,12 +217,13 @@
         </script>
 
 
-    <footer class="blog-footer">
-        <p>©2023 by <a href="https://instagram.com/ikakurai">@IKA2003</a>.</p>
-        <p>
-          <a href="#">Back to top</a>
-        </p>
-      </footer>
+        <footer class="blog-footer">
+          <p>©2023 by <a href="https://instagram.com/ikakurai">@IKA2003</a>.</p>
+          <p><a href="../../privacy-policy.html">Privacy Policy</a> &middot; <a href="../../terms-conditions.html">Terms and Conditions</a> </p>
+          <p>
+            <a href="#">Back to top</a>
+          </p>
+        </footer>
   
       <script src="../../js/bootstrap.bundle.min.js"></script>
   
